@@ -1,7 +1,5 @@
-import React from "react";
-import axios from "axios";
-import Search from "./Search";
-import "./App.css";
+import Search from "./Search"
+import "./App.css"
 
 export default function App() {
   return (
@@ -11,5 +9,5 @@ export default function App() {
         <Search />
       </header>
     </div>
-  );
+  )
 }
